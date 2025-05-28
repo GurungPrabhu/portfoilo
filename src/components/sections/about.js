@@ -146,8 +146,8 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello, I am Prabhu Gurung from Nepal. I am a passionate Full-stack developer always
-              looking for new challenges to tackle and new things to learn.
+              I am Prabhu Gurung from Nepal. I am a passionate Full-stack developer always looking
+              for new challenges to tackle and new things to learn.
             </p>
 
             <p>

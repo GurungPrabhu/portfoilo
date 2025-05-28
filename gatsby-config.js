@@ -3,11 +3,12 @@ const config = require('./src/config');
 module.exports = {
   siteMetadata: {
     title: 'Prabhu Gurung',
-    description:
-      'Prabhu Gurung is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    description: `🚀 Passionate Full-Stack Developer | 6+ Years of Experience | AI/ML Enthusiast 🤖
+
+Always on the lookout for new challenges to tackle and innovative technologies to explore! From building scalable web & mobile applications to diving deep into AI & Machine Learning, I thrive on creating impactful solutions.
+
+Let’s connect and build something amazing! 💡 #FullStackDeveloper #AI #MachineLearning`,
+    siteUrl: 'https://prabhug.com.np', // No trailing slash allowed!
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -26,7 +27,7 @@ module.exports = {
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
         display: 'minimal-ui',
-        icon: 'src/images/logo.png',
+        icon: 'src/images/favicon.png',
       },
     },
     `gatsby-plugin-offline`,

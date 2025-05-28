@@ -1,7 +1,7 @@
 ---
 date: '1'
 title: 'Hotel Management PWA app'
-cover: './demo.png'
+cover: './image.png'
 github: 'https://github.com/GurungPrabhu/cordial-app'
 tech:
   - React

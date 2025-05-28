@@ -2,10 +2,10 @@
   "name": "v4",
   "description": "Personal Website V4",
   "version": "1.0.0",
-  "author": "Prabhu Gurung <brittany.chiang@gmail.com>",
+  "author": "Prabhu Gurung <grg_prabhu@yahoo.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/GurungPrabhu/portfoilo"
   },
   "keywords": [
     "gatsby"

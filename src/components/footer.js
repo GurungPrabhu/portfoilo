@@ -105,22 +105,14 @@ const Footer = () => {
       </StyledSocialLinks>
 
       <StyledCredit tabindex="-1">
-        <a href="https://github.com/bchiang7/v4">
-          <div>Designed &amp; Built by Brittany Chiang</div>
-          <div>Updated by Prabhu Gurung</div>
+        <a href="https://github.com/GurungPrabhu/portfoilo">
+          <div>Designed &amp; Built by Prabhu Gurung</div>
+        </a>
+      </StyledCredit>
 
-          {githubInfo.stars && githubInfo.forks && (
-            <div className="github-stats">
-              <span>
-                <Icon name="Star" />
-                <span>{githubInfo.stars.toLocaleString()}</span>
-              </span>
-              <span>
-                <Icon name="Fork" />
-                <span>{githubInfo.forks.toLocaleString()}</span>
-              </span>
-            </div>
-          )}
+      <StyledCredit tabindex="-1">
+        <a href="https://github.com/bchiang7/v4">
+          <div>Forked from Brittany Chiang</div>
         </a>
       </StyledCredit>
     </StyledFooter>
@@ -128,7 +120,7 @@ const Footer = () => {
 };
 
 Footer.propTypes = {
-  githubInfo: PropTypes.object,
+  // githubInfo: PropTypes.object,
 };
 
 export default Footer;

@@ -17,20 +17,18 @@ const Head = ({ title, description, image }) => {
             defaultTitle: title
             defaultDescription: description
             siteUrl
-            defaultImage: image
-            twitterUsername
           }
         }
       }
     `,
   );
 
-  const { defaultTitle, defaultDescription, siteUrl, defaultImage } = site.siteMetadata;
+  const { defaultTitle, defaultDescription, siteUrl } = site.siteMetadata;
 
   const seo = {
     title: title || defaultTitle,
     description: description || defaultDescription,
-    image: `${siteUrl}${image || defaultImage}`,
+    // image: `${siteUrl}${image || defaultImage}`,
     url: `${siteUrl}${pathname}`,
   };
 
@@ -43,7 +41,7 @@ const Head = ({ title, description, image }) => {
 
       <meta property="og:title" content={seo.title} />
       <meta property="og:description" content={seo.description} />
-      <meta property="og:image" content={seo.image} />
+      {/* <meta property="og:image" content={seo.image} /> */}
       <meta property="og:url" content={seo.url} />
       <meta property="og:type" content="website" />
     </Helmet>
