@@ -6,14 +6,11 @@ github: 'https://github.com/GurungPrabhu/Face-Recognition-Python-Desktop-GUI-CLI
 external: 'https://mnist-digit-recognition-89.firebaseapp.com/'
 tech:
   - Python
-  - PyTorch
-  - PyQt5
-  - SQLite
-  - MTCNN
-  - DeepFace
-  - OpenCV
-  - Retina Face
+  - FastAPI
+  - ReactJs
+  - Vite
+  - MLP Neural Network
   - Numpy
 ---
 
-A Computer Vision-based Attendance System with face registration and recognition via CLI and GUI. Supports webcam/image input, attendance tracking, and test evaluation. Built with multi-threading and MVC for scalability. Includes test datasets, SQLite storage, and accuracy metrics. Run via main.py (GUI) or main-cli.py (CLI).
+MNIST Digit Recognizer developed using MLP Neural Network. The project is built with a FastAPI backend and a ReactJs frontend using Vite. It allows users to draw digits on a canvas, which are then recognized by the MLP model. The application is hosted on Firebase, providing a seamless user experience.
