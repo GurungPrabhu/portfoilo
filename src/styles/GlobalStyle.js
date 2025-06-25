@@ -437,11 +437,22 @@ const GlobalStyle = createGlobalStyle`
       text-transform: uppercase;
       letter-spacing: 0.1em;
     }
+
   }
 
   .gatsby-image-outer-wrapper {
     height: 100%;
   }
+  #mouse-circle {
+    position: fixed;
+    top: 0;
+    left: 0;
+    mix-blend-mode: plus-lighter;
+    pointer-events: none;
+    right:0;
+    bottom: 0;
+    background: transparent;
+}
 
   ${TransitionStyles};
 
