@@ -3,7 +3,7 @@ date: '1'
 title: 'MNIST Digit Recognizer using MLP Nueral network'
 cover: './image.png'
 github: 'https://github.com/GurungPrabhu/Face-Recognition-Python-Desktop-GUI-CLI-app'
-external: 'https://mnist-digit-recognition-89.firebaseapp.com/'
+external: 'http://mnist.prabhug.com.np'
 tech:
   - Python
   - FastAPI

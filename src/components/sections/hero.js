@@ -3,6 +3,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
+import { SplineSection } from '..';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -76,6 +77,7 @@ const Hero = () => {
 
   return (
     <StyledHeroSection>
+      <SplineSection />
       {prefersReducedMotion ? (
         <>
           {items.map((item, i) => (
