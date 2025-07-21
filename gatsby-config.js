@@ -46,6 +46,18 @@ Let’s connect and build something amazing! 💡 #FullStackDeveloper #AI #Machi
       },
     },
     {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: ['G-GHBQJJELPK'], // replace with your GA4 ID
+        gtagConfig: {
+          anonymize_ip: true,
+        },
+        pluginConfig: {
+          head: true,
+        },
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `posts`,

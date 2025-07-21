@@ -146,20 +146,23 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I am Prabhu Gurung from Nepal. I am a passionate Full-stack developer always looking
-              for new challenges to tackle and new things to learn.
+              I'm a Full-Stack Developer and aspiring AI Engineer from Nepal. I'm driven by the
+              thrill of solving complex problems and constantly seek out new challenges and
+              opportunities to grow.
             </p>
 
             <p>
-              I am motivated towards bringing ideas to life and let people experience the magic of
-              technology.
+              I’m passionate about turning ideas into impactful digital experiences, bringing
+              together creativity, code, and innovation to make technology feel seamless and
+              intuitive.
             </p>
 
             <p>
-              I am currently learning AI and ML and looking to bring the power of AI to the masses.
+              Currently, I’m deepening my expertise in Artificial Intelligence and Machine Learning,
+              with a mission to harness their potential and make AI accessible to everyone.
             </p>
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>Here are some of the technologies I've been working with recently:</p>
           </div>
 
           <ul className="skills-list">

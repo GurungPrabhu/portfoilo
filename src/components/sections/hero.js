@@ -62,13 +62,14 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Prabhu Gurung</h2>;
-  const three = <h3 className="big-heading">Passionate Full-stack Developer</h3>;
+  const three = <h3 className="big-heading">Software Engineer</h3>;
   const four = (
     <>
       <p>
-        I'm a programmer who's been playing with code for a while now. I love turning ideas into
-        real, working websites and apps. I'm always learning something new, and currently, I'm
-        totally hooked on figuring out AI and ML. It's a wild ride!
+        I'm a passionate programmer with a strong background in building functional and
+        user-friendly websites and applications. I enjoy transforming ideas into real-world digital
+        solutions. Continuously driven by curiosity, I'm currently focused on exploring the exciting
+        fields of Artificial Intelligence and Machine Learning.
       </p>
     </>
   );
