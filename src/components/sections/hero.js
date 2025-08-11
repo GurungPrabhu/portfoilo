@@ -69,10 +69,12 @@ const Hero = () => {
   const three = (
     <>
       <div style={{ display: 'inline-block', marginRight: '10px' }}>
-        <h3 className="big-heading" style={{ fontSize: '1.75rem' }}>
+        <h3 className="big-heading" style={{ fontSize: 'clamp(1rem, 4vw, 1.75rem)' }}>
           Full Stack
         </h3>
-        <h3 className="big-heading" style={{ fontSize: '2rem', textAlign: 'right' }}>
+        <h3
+          className="big-heading"
+          style={{ fontSize: 'clamp(0.8rem, 3vw, 1.75rem)', textAlign: 'right' }}>
           AI | Web
         </h3>
       </div>

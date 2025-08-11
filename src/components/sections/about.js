@@ -60,13 +60,13 @@ const StyledPic = styled.div`
     height: auto;
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow);
-    scale: 1.05;
+    scale: 1.09;
     transition: transform 0.3s ease;
     transform-origin: bottom center;
   }
 
   .profile-pic:hover {
-    transform: scale(1.13);
+    transform: scale(1.2);
   }
 
   .wrapper {
@@ -76,6 +76,15 @@ const StyledPic = styled.div`
     width: 100%;
     border-radius: var(--border-radius);
     background-color: var(--alternate-color);
+    @media (hover: none) and (pointer: coarse) {
+      .profile-pic {
+        transform: scale(1.2);
+      }
+      .img {
+        filter: none !important;
+        mix-blend-mode: normal !important;
+      }
+    }
 
     &:hover,
     &:focus {
