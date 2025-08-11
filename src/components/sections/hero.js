@@ -60,16 +60,36 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Prabhu Gurung</h2>;
-  const three = <h3 className="big-heading">Software Engineer</h3>;
+  const one = <h1>Hi, I am</h1>;
+  const two = (
+    <h2 className="big-heading" style={{ fontSize: '3rem' }}>
+      Prabhu Gurung
+    </h2>
+  );
+  const three = (
+    <>
+      <div style={{ display: 'inline-block', marginRight: '10px' }}>
+        <h3 className="big-heading" style={{ fontSize: '1.75rem' }}>
+          Full Stack
+        </h3>
+        <h3 className="big-heading" style={{ fontSize: '2rem', textAlign: 'right' }}>
+          AI | Web
+        </h3>
+      </div>
+      <h3 className="big-heading" style={{ display: 'inline-block' }}>
+        Developer
+      </h3>
+    </>
+  );
   const four = (
     <>
-      <p>
-        I'm a passionate programmer with a strong background in building functional and
-        user-friendly websites and applications. I enjoy transforming ideas into real-world digital
-        solutions. Continuously driven by curiosity, I'm currently focused on exploring the exciting
-        fields of Artificial Intelligence and Machine Learning.
+      <p style={{ marginTop: '0' }}>
+        Passionate Full Stack Web & AI Developer, I bring a depth of expertise shaped by years of
+        building innovative, scalable solutions that blend technical precision with user-focused
+        design. I excel in developing robust applications, RESTful APIs, and seamless UI/UX, while
+        integrating AI to solve complex, real-world challenges. Driven by passion and curiosity, I
+        continuously explore emerging technologies to deliver high-quality, impactful digital
+        experiences.
       </p>
     </>
   );

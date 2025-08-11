@@ -55,6 +55,20 @@ const StyledPic = styled.div`
     width: 70%;
   }
 
+  .profile-pic {
+    width: 100%;
+    height: auto;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    scale: 1.05;
+    transition: transform 0.3s ease;
+    transform-origin: bottom center;
+  }
+
+  .profile-pic:hover {
+    transform: scale(1.13);
+  }
+
   .wrapper {
     ${({ theme }) => theme.mixins.boxShadow};
     display: block;
@@ -112,7 +126,6 @@ const StyledPic = styled.div`
     }
   }
 `;
-
 const About = () => {
   const revealContainer = useRef(null);
   const prefersReducedMotion = usePrefersReducedMotion();
@@ -173,8 +186,8 @@ const About = () => {
         <StyledPic>
           <div className="wrapper">
             <StaticImage
-              className="img"
-              src="../../images/profile.jpeg"
+              className="img profile-pic"
+              src="../../images/profile.png"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
